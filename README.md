@@ -1,4 +1,4 @@
-## Weather App
+# Weather App
 - A simple and responsive React Weather App that fetches real-time weather data from the OpenWeatherMap API.
 
 # Features
