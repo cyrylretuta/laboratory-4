@@ -25,6 +25,3 @@ Shows a loading state while fetching data.
 
 - Loading States
 A loading spinner appears while data is being fetched.
-
-Deployment
-The app is hosted at: Live Demo
