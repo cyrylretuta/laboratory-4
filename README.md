@@ -1,21 +1,30 @@
-# 🌤️ Weather App  
+## Weather App
+- A simple and responsive React Weather App that fetches real-time weather data from the OpenWeatherMap API.
 
-### 📌 Description  
-A simple **React Weather App** that fetches real-time weather data using the **OpenWeatherMap API**.  
-It displays the current temperature, weather conditions, and other useful information for a searched city.  
+# Features
+- Search for any city and get live weather updates.
+- Displays temperature, humidity, and weather conditions.
+- Loading state while fetching data.
+- Handles invalid city names gracefully.
 
----
+# API Source
+- This app uses the OpenWeatherMap API to get real-time weather data.
 
-### 📌 Features  
-✅ Search for any city worldwide 🌍  
-✅ Display real-time temperature, humidity, and weather conditions ☀️🌧️  
-✅ Error handling for invalid city names ❌  
-✅ Responsive and user-friendly UI 🎨  
+# Explanation of useState and useEffect
+- useState is used to manage the search input, weather data, and loading/error states.
+- useEffect is used to fetch weather data when the user searches for a city.
 
----
+# Code Quality
+- Proper Component Structure
+The app follows a modular approach, with components properly organized.
+App.js contains the main logic, while styling is managed in index.css.
 
-### 📌 API Source  
-This app uses the **OpenWeatherMap API** to fetch weather data.  
-- 📌 API Link: [OpenWeatherMap](https://openweathermap.org/api)
+- API Error Handling
+Displays an error message if the city is not found.
+Shows a loading state while fetching data.
 
-- 
+- Loading States
+A loading spinner appears while data is being fetched.
+
+Deployment
+The app is hosted at: Live Demo
